@@ -25,7 +25,7 @@
 # License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
 
 import motor.motor_asyncio, datetime
-from LuciferMoringstar_Robot import DATABASE_NAME, DATABASE_URI, SINGLE_BUTTON, REQUEST_MOVIE, SPELL_MODE, SPELL_TEXT, WELCOME_TEXT, MELCOW_NEW_USERS, MOVIE_TEXT, CUSTOM_FILE_CAPTION, SAVE_FILES, FILE_MODE    
+from LuciferMoringstar_Robot import DATABASE_NAME, DATABASE_URI, SINGLE_BUTTON, REQUEST_BOOK, SPELL_MODE, SPELL_TEXT, WELCOME_TEXT, MELCOW_NEW_USERS, BOOK_TEXT, CUSTOM_FILE_CAPTION, SAVE_FILES, FILE_MODE    
 
 class Database:
     
@@ -80,12 +80,12 @@ class Database:
     async def get_settings(self, id):
         default = {
             'button': SINGLE_BUTTON,
-            'photo': REQUEST_MOVIE,
+            'photo': REQUEST_BOOK,
             'spellmode': SPELL_MODE,
             'spelltext': SPELL_TEXT,
             'welcometext': WELCOME_TEXT,
             'welcome': MELCOW_NEW_USERS,
-            'template': MOVIE_TEXT,
+            'template': BOOK_TEXT,
             'caption': CUSTOM_FILE_CAPTION,
             'savefiles': SAVE_FILES,
             'filemode': FILE_MODE
