@@ -26,9 +26,10 @@
 
 START_MESSAGE = """
 👋Hello {mention}..!
-It's Power Full [{name}](t.me/{username}) Here 😎
-Add Me To Your Group And Make Sure I'm an Admin There..!
-And Enjoy My Pever Show..! 🤪"""
+​This bot can help you find and **share Telegram files.
+It works in any chat, just write @ebooksdlsbot in the text field. Let's try!
+ടെലിഗ്രാം ഫയലുകൾ കണ്ടെത്താനും പങ്കിടാനും ഈ ബോട്ട് നിങ്ങളെ സഹായിക്കും. 
+ഇത് ഏത് ചാറ്റിലും പ്രവർത്തിക്കുന്നു, ടെക്സ്റ്റ് ഫീൽഡിൽ @ebooksdlsbot എന്ന് എഴുതുക. നമുക്ക് ശ്രമിക്കാം!**"""
 
 HELP_MESSAGE = """
 𝙷𝙴𝙻𝙻𝙾 {mention}
@@ -36,10 +37,8 @@ HELP_MESSAGE = """
 """
 
 ABOUT_MESSAGE = """
-𝙱𝙾𝚃 𝚃𝚈𝙿𝙴 : 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁
-𝙱𝙾𝚃 𝙱𝚁𝙰𝙽𝙲𝙷 : 𝙻𝚄𝙲𝙸𝙵𝙴𝚁
-𝙱𝙾𝚃 𝙻𝙸𝙲𝙴𝙽𝚂𝙴 : [𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE)
-𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : [𝙼𝚄𝙷𝙰𝙼𝙼𝙴𝙳](t.me/PR0FESS0R_99)
+𝙱𝙾𝚃 𝚃𝚈𝙿𝙴 : EBOOKS
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : [MUHAMMED ADNAN K](t.me/mr_readers)
 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : [{name}](https://t.me/{username})
 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽3 : {py3_version}
 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 : {pyro_version}
@@ -58,13 +57,13 @@ SPELLMODE_MESSAGE = """
 **__Couldn't Find {query} ?  Please Click Your Request Name**__"""
 
 REQUEST_MESSAGE = """
-**Requested By:** {mention}\n**Requested Name:** {query}\n™ {group_name}"""
+**Requested By:** {mention}\n**Requested BOOK Name:** {query}\n™ {group_name}"""
 
 WELCOME_MESSAGE = """
 𝙷𝙴𝙻𝙻𝙾 {mention} 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 {group_name}"""
 
 FILECAPTION_MESSAGE = """
-• `{file_name}` \n 𝙹𝙾𝙸𝙽 : @Night_MovieZ"""
+• `{file_name}` \n 𝙹𝙾𝙸𝙽 : @EBOOKS_MALAYALAM_EBOOKS"""
 
 ADMIN_CMD_MESSAGE = """
 𝙰𝙳𝙼𝙸𝙽𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 :-
@@ -80,23 +79,6 @@ GETFILE_TEXT = """
 
 NOT_SUB = """
 𝙸 𝙻𝙸𝙺𝙴 𝚈𝙾𝚄𝚁 𝚂𝙼𝙰𝚁𝚃𝙽𝙴𝚂𝚂, 𝙱𝚄𝚃 𝙳𝙾𝙽'𝚃 𝙱𝙴 𝙾𝚅𝙴𝚁𝚂𝙼𝙰𝚁𝚃 😤.\n 𝙵𝚒𝚛𝚜𝚝 𝚂𝚞𝚋𝚜𝚌𝚛𝚒𝚋𝚎 𝙼𝚢 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 😕"""              
-
-USAGE_MESSAGE = """
-🤠 🄷🄾🅆 🅃🄾 🅄🅂🄴
-
- • [𝙸𝙽𝚃𝚁𝙾](https://youtu.be/zk5Rs3_Cqhw?t=0m00s)
- • [𝙰𝙳𝙳 𝙵𝙸𝙻𝙴𝚂](https://youtu.be/zk5Rs3_Cqhw?t=0m30s)
- • [𝙶𝙴𝚃 𝙰𝙻𝙻 𝙵𝙸𝙻𝙴 𝙲𝙾𝚄𝙽𝚃](https://youtu.be/zk5Rs3_Cqhw?t=1m01s)
- • [𝙳𝙴𝙻𝙴𝚃𝙴 𝙵𝙸𝙻𝙴𝚂](https://youtu.be/zk5Rs3_Cqhw?t=1m25)
- • [𝙱𝙾𝚃 𝙿𝙴𝚁𝙼𝙸𝚂𝚂𝙸𝙾𝙽 & 𝚅𝙸𝙰](https://youtu.be/zk5Rs3_Cqhw?t=3m14s)
- • [𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙻𝙸𝚂𝚃](https://youtu.be/zk5Rs3_Cqhw?t=5m13s)
- • [𝙲𝙾𝙽𝚃𝚁𝙾𝙻 𝙿𝙼 𝙵𝙸𝙻𝚃𝙴𝚁](https://youtu.be/zk5Rs3_Cqhw?t=5m31s)
- • [𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂 & 𝚂𝙴𝚃𝚃𝙸𝙽𝙶𝚂](https://youtu.be/zk5Rs3_Cqhw?t=6m17s)
- • [𝙲𝚄𝚂𝚃𝙾𝙼𝙸𝚉𝚂](https://youtu.be/zk5Rs3_Cqhw?t=9m50s)
-
-× [𝙷𝚘𝚠 𝚃𝚘 𝚂𝚎𝚝 𝙼𝚎𝚗𝚞 𝙱𝚞𝚝𝚝𝚘𝚗](https://youtu.be/k1QQuZke56s)
-
-× [𝙷𝚘𝚠 𝚃𝚘 𝙲𝚛𝚎𝚊𝚝𝚎 𝚃𝚑𝚒𝚜 𝚃𝚢𝚙𝚎 𝙾𝚏 𝙱𝚘𝚝](https://youtu.be/gdz9PAGwEns)
 
 × 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝙳 𝙱𝚈
   - [{}](t.me/{})"""
