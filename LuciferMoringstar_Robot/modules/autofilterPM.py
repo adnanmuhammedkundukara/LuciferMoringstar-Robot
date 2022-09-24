@@ -27,7 +27,7 @@
 import re, random, asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-from LuciferMoringstar_Robot import temp, PICS, REQUEST_MOVIE, SINGLE_BUTTON, MOVIE_TEXT
+from LuciferMoringstar_Robot import temp, PICS, REQUEST_BOOK, SINGLE_BUTTON, BOOK_TEXT
 from LuciferMoringstar_Robot.functions import get_size, split_list
 from database.autofilter_mdb import get_filter_results
 
@@ -74,12 +74,12 @@ async def pm_filters(client, update):
             )
 
 
-            if REQUEST_MOVIE:
-                Del = await client.send_photo(chat_id=update.chat.id, photo=random.choice(PICS), caption=MOVIE_TEXT.format(mention=update.from_user.mention, query=search, greeting=None, group_name = f"[{update.chat.title}](t.me/{update.chat.username})" or f"[{update.chat.title}](t.me/{update.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
+            if REQUEST_BOOK:
+                Del = await client.send_photo(chat_id=update.chat.id, photo=random.choice(PICS), caption=BOOK_TEXT.format(mention=update.from_user.mention, query=search, greeting=None, group_name = f"[{update.chat.title}](t.me/{update.chat.username})" or f"[{update.chat.title}](t.me/{update.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
                 await asyncio.sleep(1000)
                 await Del.delete()
             else:
-                Del = await client.send_message(chat_id=update.chat.id, text=MOVIE_TEXT.format(mention=update.from_user.mention, query=search, greeting=None, group_name = f"[{update.chat.title}](t.me/{update.chat.username})" or f"[{update.chat.title}](t.me/{update.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
+                Del = await client.send_message(chat_id=update.chat.id, text=BOOK_TEXT.format(mention=update.from_user.mention, query=search, greeting=None, group_name = f"[{update.chat.title}](t.me/{update.chat.username})" or f"[{update.chat.title}](t.me/{update.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
                 await asyncio.sleep(1000)
                 await Del.delete()
             return
@@ -93,11 +93,11 @@ async def pm_filters(client, update):
              InlineKeyboardButton(text="➡",callback_data=f"nextbot_0_{keyword}")]
         )
         
-        if REQUEST_MOVIE:
-            Del = await client.send_photo(chat_id=update.chat.id, photo=random.choice(PICS), caption=MOVIE_TEXT.format(mention=update.from_user.mention, query=search, greeting=None, group_name = f"[{update.chat.title}](t.me/{update.chat.username})" or f"[{update.chat.title}](t.me/{update.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
+        if REQUEST_BOOK:
+            Del = await client.send_photo(chat_id=update.chat.id, photo=random.choice(PICS), caption=BOOK_TEXT.format(mention=update.from_user.mention, query=search, greeting=None, group_name = f"[{update.chat.title}](t.me/{update.chat.username})" or f"[{update.chat.title}](t.me/{update.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
             await asyncio.sleep(1000)
             await Del.delete()
         else:
-            Del = await client.send_message(chat_id=update.chat.id, text=MOVIE_TEXT.format(mention=update.from_user.mention, query=search, greeting=None, group_name = f"[{update.chat.title}](t.me/{update.chat.username})" or f"[{update.chat.title}](t.me/{update.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
+            Del = await client.send_message(chat_id=update.chat.id, text=BOOK_TEXT.format(mention=update.from_user.mention, query=search, greeting=None, group_name = f"[{update.chat.title}](t.me/{update.chat.username})" or f"[{update.chat.title}](t.me/{update.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
             await asyncio.sleep(1000)
             await Del.delete()
