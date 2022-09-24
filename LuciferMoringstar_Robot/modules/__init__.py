@@ -107,9 +107,6 @@ __I Can Provide files in your group, it very easy way just add me to your group 
 • __use the /settings command to modify autofilter settings__
 • __use the /pmautofilter to turn on\off pm autofilter__
 
-📰 **--Available Vars--** :-
-`{title}` - `{votes}` - `{aka}` - `{seasons}` - `{box_office}` - `{localized_title}` - `{kind}` - `{imdb_id}` - `{cast}` - `{runtime}` - `{countries}` - `{certificates}` - `{languages}` - `{director}` - `{writer}` - `{producer}` - `{composer}` - `{cinematographer}` - `{music_team}` - `{distributors}` - `{release_date}` - `{year}` - `{genres}` - `{poster}` - `{plot}` - `{rating}` - `{url}`"""
-
 # ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ #
 
     filestore_text = """
